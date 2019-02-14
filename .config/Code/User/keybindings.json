@@ -26,7 +26,12 @@
         "when": "inDebugMode"
     },
     {
-        "key": "z",
+        "key": "ctrl+z",
         "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-undo",
+        "when": "textInputFocus && !editorReadonly"
     },
 ]

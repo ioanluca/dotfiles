@@ -2,7 +2,7 @@
     "editor.lineNumbers": "relative",
     "latex-workshop.view.pdf.viewer": "tab",
     "editor.mouseWheelZoom": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "editor.renderWhitespace": "none",
     "editor.wordWrap": "wordWrapColumn",
     "terminal.integrated.rendererType": "dom",
