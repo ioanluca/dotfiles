@@ -16,6 +16,15 @@
         "args": "Build and run"
     },
     {
+        "key": "ctrl+z",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-undo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
         "key": "f4",
         "command": "workbench.action.debug.continue",
         "when": "inDebugMode"
@@ -26,12 +35,13 @@
         "when": "inDebugMode"
     },
     {
-        "key": "ctrl+z",
-        "command": "workbench.action.focusNextGroup"
+        "key": "f4",
+        "command": "workbench.action.debug.start",
+        "when": "!inDebugMode"
     },
     {
-        "key": "ctrl+z",
-        "command": "-undo",
-        "when": "textInputFocus && !editorReadonly"
-    },
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "!inDebugMode"
+    }
 ]

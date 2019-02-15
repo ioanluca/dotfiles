@@ -44,7 +44,7 @@
     "breadcrumbs.enabled": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "vim.useSystemClipboard": true,
+    // "vim.useSystemClipboard": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "vim.useCtrlKeys": false,
