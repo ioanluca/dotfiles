@@ -18,21 +18,20 @@
     "files.associations": {
         "*.mlf": "clojure"
     },
-    "workbench.colorTheme": "Material Theme",
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "name": "User-defined constant",
-                "scope": [
-                    // "constant.character.haskell",
-                    "constant.other.haskell",
-                ],
-                "settings": {
-                    "foreground": "#FFCB6B",
-                }
-            }
-        ],
-    },
+    // "editor.tokenColorCustomizations": {
+    //     "textMateRules": [
+    //         {
+    //             "name": "User-defined constant",
+    //             "scope": [
+    //                 // "constant.character.haskell",
+    //                 // "constant.other.haskell",
+    //             ],
+    //             "settings": {
+    //                 "foreground": "#FFCB6B",
+    //             }
+    //         }
+    //     ],
+    // },
     "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
     "editor.lineHeight": 23,
@@ -79,5 +78,6 @@
             ],
             "after": [],
         }
-    ]
+    ],
+    "workbench.colorTheme": "Solarized Light",
 }
