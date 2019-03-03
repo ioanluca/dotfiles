@@ -43,5 +43,14 @@
         "key": "f5",
         "command": "-workbench.action.debug.start",
         "when": "!inDebugMode"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "alt+down",
+        "command": "-workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
     }
 ]
