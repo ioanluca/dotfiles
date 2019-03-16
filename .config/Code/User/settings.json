@@ -6,13 +6,13 @@
     "editor.renderWhitespace": "none",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80,
-    // adding latex comment in regex
-    "todo-tree.regex": "((//|#|%|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+    // adding latex and haskell comment in regex
+    "todo-tree.regex": "((//|--|#|%|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
     "todo-tree.labelFormat": "${after}",
     "todo-tree.grouped": true,
     "todo-tree.regexCaseSensitive": false,
     "todo-tree.showCountsInTree": true,
-    "todo-tree.statusBar": "total",
+    "todo-tree.statusBar": "top three",
     "workbench.iconTheme": "vscode-icons",
     "files.associations": {
         "*.mlf": "clojure"
@@ -78,5 +78,7 @@
             "after": [],
         }
     ],
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Solarized Light",
+    "explorer.confirmDelete": false,
+    "todo-tree.ripgrepMaxBuffer": 3000,
 }
