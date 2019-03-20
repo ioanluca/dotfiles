@@ -45,12 +45,24 @@
         "when": "!inDebugMode"
     },
     {
-        "key": "alt+right",
-        "command": "workbench.action.terminal.focusNext"
+        "key": "alt+down",
+        "command": "-workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "-workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+
     },
     {
         "key": "alt+down",
-        "command": "-workbench.action.terminal.focusNextPane",
+        "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
     }
 ]

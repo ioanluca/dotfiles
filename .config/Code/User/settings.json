@@ -62,7 +62,6 @@
             "after": [],
         }
     ],
-    "workbench.colorTheme": "Solarized Light",
     "explorer.confirmDelete": false,
     "todo-tree.labelFormat": "${after}",
     "todo-tree.regexCaseSensitive": false,
@@ -70,4 +69,6 @@
     "todo-tree.statusBar": "top three",
     "latex-workshop.view.pdf.viewer": "tab",
     "editor.renderControlCharacters": true,
+    "explorer.decorations.badges": false,
+    "workbench.colorTheme": "Solarized Light",
 }
